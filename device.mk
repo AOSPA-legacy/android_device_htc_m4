@@ -87,8 +87,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps.conf:system/etc/gps.conf
 
 # Keystore
-#PRODUCT_PACKAGES += \
-#    keystore.msm8960
+PRODUCT_PACKAGES += \
+    keystore.msm8960
 
 # Permissions
 PRODUCT_COPY_FILES += \
